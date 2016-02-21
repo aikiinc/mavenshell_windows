@@ -1,0 +1,8 @@
+appfuse-basic-spring-archetype
+appfuse-basic-struts-archetype
+appfuse-basic-jsf-archetype
+appfuse-core-archetype
+appfuse-modular-jsf-archetype
+appfuse-basic-tapestry-archetype
+appfuse-basic-wicket-archetype
+appfuse-basic-gwt-archetype

@@ -1,0 +1,7 @@
+appfuse-light-jsf-archetype
+appfuse-light-spring-freemarker-archetype
+appfuse-light-spring-security-archetype
+appfuse-light-stripes-archetype
+appfuse-light-spring-archetype
+appfuse-light-tapestry-archetype
+appfuse-light-struts-archetype

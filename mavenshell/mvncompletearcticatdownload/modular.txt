@@ -1,0 +1,6 @@
+appfuse-modular-tapestry-archetype
+appfuse-modular-struts-archetype
+appfuse-modular-spring-archetype
+appfuse-modular-wicket-archetype
+appfuse-modular-gwt-archetype
+appfuse-ws-archetype
