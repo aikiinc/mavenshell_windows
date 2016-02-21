@@ -72,30 +72,30 @@ What You Need To Do
 1. Set the JDK path and environment by updating the setjdk17.cmd file.
 Here is my development environment set in the setjdk17.cmd file:
 
-echo off
-set JAVA_HOME=E:\jdk1.7.0_01
-set ANT_HOME=E:\apache-ant-1.8.2
-call setmvn
-set WINDOW_PATH=C:\WINDOWS\system32;C:\WINDOWS;.;c:\batch\;
-set CLASSPATH=.;%JAVA_HOME%\jre\lib\rt.jar;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;
-set CLASSPATH=%CLASSPATH%;%ANT_HOME%\lib\ant.jar
-set PATH=.;%JAVA_HOME%\bin;%ANT_HOME%\bin;%WINDOW_PATH%;%MAVEN_HOME%\bin
-cls
-set CLASSPATH=%CLASSPATH%;
-echo CLASSPATH=%CLASSPATH%
-echo .
-echo ANT_HOME=%ANT_HOME%
-echo MAVEN_HOME=%MAVEN_HOME%
-echo PATH=%PATH%
-echo .
+echo off<br>
+set JAVA_HOME=E:\jdk1.7.0_01<br>
+set ANT_HOME=E:\apache-ant-1.8.2<br>
+call setmvn<br>
+set WINDOW_PATH=C:\WINDOWS\system32;C:\WINDOWS;.;c:\batch\;<br>
+set CLASSPATH=.;%JAVA_HOME%\jre\lib\rt.jar;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar;<br>
+set CLASSPATH=%CLASSPATH%;%ANT_HOME%\lib\ant.jar<br>
+set PATH=.;%JAVA_HOME%\bin;%ANT_HOME%\bin;%WINDOW_PATH%;%MAVEN_HOME%\bin<br>
+cls<br>
+set CLASSPATH=%CLASSPATH%;<br>
+echo CLASSPATH=%CLASSPATH%<br>
+echo .<br>
+echo ANT_HOME=%ANT_HOME%<br>
+echo MAVEN_HOME=%MAVEN_HOME%<br>
+echo PATH=%PATH%<br>
+echo .<br>
 
 2. Set the Maven environment in the setmvn.cmd file:
 
-echo off
-set MAVEN_HOME=E:\apache-maven-3.3.3
-cls
-PATH=%MAVEN_HOME%\bin;%PATH%
-echo PATH=%PATH%;
+echo off<br>
+set MAVEN_HOME=E:\apache-maven-3.3.3<br>
+cls<br>
+PATH=%MAVEN_HOME%\bin;%PATH%<br>
+echo PATH=%PATH%;<br>
 
 3. Call the Maven Command Menu Shell (MCMS)
 o On the DOS command line, call mvnmenu
