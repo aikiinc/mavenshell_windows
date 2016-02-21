@@ -98,14 +98,14 @@ cls<br>
 PATH=%MAVEN_HOME%\bin;%PATH%<br>
 echo PATH=%PATH%;<br>
 <br>
-3. Call the Maven Command Menu Shell (MCMS)
-o On the DOS command line, call mvnmenu
+3. Call the Maven Command Menu Shell (MCMS)<br>
+o On the DOS command line, call mvnmenu<br>
 o The memu from above should appear, see "What Does It Look Like?".
 <br>
 <br>  
 4. Usage<br>
 o For example to do maven clean<br>
-<br>o Select k form the menu<br>
+o Select k form the menu<br>
 <br>
 Hope it helps, that's what I use these day.<br>
 Cheers!
