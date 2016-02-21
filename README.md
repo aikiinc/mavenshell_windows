@@ -66,12 +66,13 @@ o The setjdk*.cmd is not call automatically so we can set the JDK to use
   manually. You can make it auto by removing the 'rem' before its trigger
   in the mvnmenu.cmd file.
 o The mvnshell.cmd which calls setmvn.cnd to set the maven environments. 
+<br>
   
 What You Need To Do
 -----------------------------------------------
-1. Set the JDK path and environment by updating the setjdk17.cmd file.
-Here is my development environment set in the setjdk17.cmd file:
-
+1. Set the JDK path and environment by updating the setjdk17.cmd file.<br>
+Here is my development environment set in the setjdk17.cmd file:<br>
+<br>
 echo off<br>
 set JAVA_HOME=E:\jdk1.7.0_01<br>
 set ANT_HOME=E:\apache-ant-1.8.2<br>
@@ -88,23 +89,24 @@ echo ANT_HOME=%ANT_HOME%<br>
 echo MAVEN_HOME=%MAVEN_HOME%<br>
 echo PATH=%PATH%<br>
 echo .<br>
-
-2. Set the Maven environment in the setmvn.cmd file:
-
+<br>
+<br>  
+2. Set the Maven environment in the setmvn.cmd file:<br>  
 echo off<br>
 set MAVEN_HOME=E:\apache-maven-3.3.3<br>
 cls<br>
 PATH=%MAVEN_HOME%\bin;%PATH%<br>
 echo PATH=%PATH%;<br>
-
+<br>
 3. Call the Maven Command Menu Shell (MCMS)
 o On the DOS command line, call mvnmenu
 o The memu from above should appear, see "What Does It Look Like?".
-
-4. Usage
-o For example to do maven clean
-o Select k form the menu
-
-Hope it helps, that's what I use these day.
+<br>
+<br>  
+4. Usage<br>
+o For example to do maven clean<br>
+<br>o Select k form the menu<br>
+<br>
+Hope it helps, that's what I use these day.<br>
 Cheers!
 
