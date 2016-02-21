@@ -110,3 +110,6 @@ o Select k form the menu<br>
 Hope it helps, that's what I use these day.<br>
 Cheers!
 
+Author: Phillip Jahmani Chauvet (c) 2016
+* Free to use by anyone
+
